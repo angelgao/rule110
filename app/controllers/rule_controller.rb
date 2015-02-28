@@ -12,6 +12,7 @@
   ]
   
     def output
+      
   
       three_thing_output = ->(left, center, right) do
           @@rules.each do |rule|
@@ -32,7 +33,7 @@
       
       @result = []
           @result << [true]
-          iterations = params["num"].to_i
+          iterations = params[:num] ? params["num"].to_i : 6
   
           iterations.times do
               current = @result.last
