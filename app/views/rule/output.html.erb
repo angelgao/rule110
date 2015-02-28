@@ -1,0 +1,27 @@
+
+        <% final_length = @result.last.size 
+        @result.each do |rule|%>
+        <div class="newline">
+            <%(final_length - rule.size).times do %>
+                <div class=<%= "empty" %>></div>
+            <% end
+            rule.reverse.each do |val| %>
+ 
+                    <div class=<%= 
+                    result = ""
+                    if val 
+                        result = "filled" 
+                    else
+                        result = "empty" 
+                    end
+                    result %>></div>
+
+               <%
+            end
+            
+            %>
+            </div>
+            <%
+        end 
+
+    %>
