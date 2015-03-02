@@ -1,12 +1,14 @@
 # Rule 110
 ---
-This is the greatest app ever. It not only is special, but also unique. It has many qualities of an exceptional application. For example, it follows some awesome conventions, and it is methodically documented. Just look at this epic README.
 
-This dress is white and gold ![gif](https://nationalpostcom.files.wordpress.com/2015/02/is-this-dress-white-and-gold-or-black-and-blue.jpg?w=620&h=465)
+A Ruby on Rails app created to illustrate Rule 110 cellular automaton.  
+Starting with a single colored cell, the program uses the rules below to create the next row.
 
-You can join ticketfi team! Hackathon.
 
-Features coming soon:
-REDIS!
-POSTGRES!
-MEMCACHED!
+![](http://mathworld.wolfram.com/images/eps-gif/ElementaryCARule110_1000.gif)
+
+
+To specify the number of rows, navigate to
+`rule110.herokuapp.com/output/{numRows}`
+
+Read more about Rule 110 from this [Wikipedia article](http://en.wikipedia.org/wiki/Rule_110).
