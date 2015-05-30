@@ -1,5 +1,4 @@
 # Rule 110
----
 
 A Ruby on Rails app created to illustrate Rule 110 cellular automaton.  
 Starting with a single colored cell, the program uses the rules below to create the next row.
